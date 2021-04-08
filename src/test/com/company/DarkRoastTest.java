@@ -2,7 +2,6 @@ package test.com.company;
 
 import com.company.Beverage;
 import com.company.DarkRoast;
-import com.company.HouseBlend;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

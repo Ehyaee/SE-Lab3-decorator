@@ -1,4 +1,13 @@
 package com.company;
 
-public class Decaf {
+public class Decaf implements Beverage {
+    @Override
+    public String getDescription() {
+        return "Delicious Decaf";
+    }
+
+    @Override
+    public double cost() {
+        return 0.8;
+    }
 }
