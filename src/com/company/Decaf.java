@@ -3,11 +3,11 @@ package com.company;
 public class Decaf implements Beverage {
     @Override
     public String getDescription() {
-        return null;
+        return "Delicious Decaf";
     }
 
     @Override
     public double cost() {
-        return 0;
+        return 0.8;
     }
 }
