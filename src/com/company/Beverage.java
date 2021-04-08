@@ -1,7 +1,7 @@
 package com.company;
 
 public interface Beverage {
-    String description = null;
+    //public String description = null;
     String getDescription();
-    int cost();
+    double cost();
 }
