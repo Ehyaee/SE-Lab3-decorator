@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DarkRoastTest {
     @Test
     void testDarkRoast() {
-        // Pure HouseBlend
+        // Pure DarkRoast
         Beverage beverage = new DarkRoast();
         assertEquals("Delicious DarkRoast", beverage.getDescription());
         assertEquals(0.7, beverage.cost());
