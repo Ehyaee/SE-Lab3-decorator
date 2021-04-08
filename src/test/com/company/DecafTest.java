@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class DecafTest {
     @Test
     void testDecaf() {
-        // Pure HouseBlend
+        // Pure Decaf
         Beverage beverage = new Decaf();
         assertEquals("Delicious Decaf", beverage.getDescription());
         assertEquals(0.8, beverage.cost());
