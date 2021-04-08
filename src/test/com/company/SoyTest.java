@@ -12,7 +12,7 @@ class SoyTest {
     void testHouseBlendWithSoy() {
         // HouseBlend + soy
         Beverage beverage = new Soy(new HouseBlend());
-        assertEquals("Delicious HouseBlend with mocha", beverage.getDescription());
-        assertEquals(0.89 + 0.2, beverage.cost());
+        assertEquals("Delicious HouseBlend with soy", beverage.getDescription());
+        assertEquals(0.89 + 0.25, beverage.cost());
     }
 }
