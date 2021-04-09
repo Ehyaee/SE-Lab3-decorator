@@ -1,7 +1,6 @@
 package com.company;
 
 
-
     public class CondimentDecorator implements Beverage {
         private Beverage _beverage;
 
